@@ -17,4 +17,4 @@ def familia(self):
     sister.save()
     show3 = f'El nombre de mi padre es {sister.nombre} tiene {sister.years} de edad, nació el {sister.born_in} y su hobbie es {sister.hobbie}.'
 
-    return HttpResponse(f'{show} \n {show2} \n {show3}')
+    return HttpResponse(f'{show} <br> {show2} <br> {show3}')
